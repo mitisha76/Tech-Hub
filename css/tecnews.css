@@ -1,0 +1,126 @@
+body
+{
+    background:#f7eaea !important;
+}
+.navbar-inverse {
+    background-color: white !important;
+    border-color: transparent !important;
+    height:100px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,.175);
+}
+.navbar-inverse .navbar-nav>li>a {
+    color:rgb(56,125,66) !important;
+}
+.navbar
+{
+	margin-bottom: 0px;
+}
+.kl
+{
+    height:90px;
+}
+.navbar-brand img {
+    height: 88px;
+    width: 60%;
+    margin-top: -9px;
+}
+
+.navbar-header {
+    height: 100px;
+    width:40%; 
+}
+.navbar-inverse .navbar-nav>li {
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-family: 'Mali',cursive;
+    font-weight: bold;
+    margin-top: 26px;
+    overflow:hidden;
+    position:relative;
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover
+{
+	color:rgb(171,201,54) !important;
+}
+.navbar-inverse .navbar-nav>li:focus, .navbar-inverse .navbar-nav>li:hover::before
+{
+left:30%;
+}
+.navbar-inverse .navbar-nav>li:focus, .navbar-inverse .navbar-nav>li::before
+{
+content:"";
+position:absolute;
+left:-100%;
+bottom:0%;
+background-color: rgb(171,201,54);
+height:4px;
+width:55px;
+transition:0.4s ease-in-out;
+
+}
+.news
+{
+    box-shadow: 0px 0px 10px green;
+    margin-bottom: 30px !important;
+    margin-top: 20px !important;
+    margin-left:80px !important;
+    margin-right:60px !important;
+    background:#000000f5;
+    border-radius:30px;
+}
+.col-md-3
+{
+    padding: 0px !important;
+}
+.head
+{
+    color:white;
+    font-size: 28px;
+    font-family: Calibri;
+    width: 100%;
+}
+.news img
+{
+    width: 100%;
+    height:60%;
+    position: relative;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    margin:0px;
+}
+.four
+{
+        width:100%;
+        height:400px;
+}
+.overlay 
+{
+    border-radius:30px;
+    background:black;
+  position: absolute;
+  top:0px;
+  bottom: 100%;
+  right: 0;
+  overflow: hidden;
+  width:100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.four:hover .overlay {
+  bottom: 0;
+  height:100%;
+}
+.text {
+  color:white;
+  width:100%;
+  font-size: 20px;
+  position: absolute;
+  top:50%;
+  left: 50%;
+ font-family:Calibri;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

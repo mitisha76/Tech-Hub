@@ -1,0 +1,183 @@
+.navbar-inverse {
+    background-color: white !important;
+    border-color: transparent !important;
+    height:100px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,.175);
+}
+.navbar-inverse .navbar-nav>li>a {
+    color:rgb(56,125,66) !important;
+}
+.front
+{
+  font-family:'Mali',cursive;
+  font-size: 40px;
+  font-weight: bold;
+  color:rgb(56,125,66);
+}
+.navbar
+{
+	margin-bottom: 0px;
+}
+.kl
+{
+    height:90px;
+}
+.search-container img
+{
+  margin-left: 240px;
+}
+.navbar-brand img {
+    height: 88px;
+    width: 60%;
+    margin-top: -9px;
+}
+
+.navbar-header {
+    height: 100px;
+    width:40%; 
+}
+.navbar-inverse .navbar-nav>li {
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-family: 'Mali',cursive;
+    font-weight: bold;
+    margin-top: 26px;
+    overflow:hidden;
+    position:relative;
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover
+{
+	color:rgb(171,201,54) !important;
+}
+.navbar-inverse .navbar-nav>li:focus, .navbar-inverse .navbar-nav>li:hover::before
+{
+left:30%;
+}
+.navbar-inverse .navbar-nav>li:focus, .navbar-inverse .navbar-nav>li::before
+{
+content:"";
+position:absolute;
+left:-100%;
+bottom:0%;
+background-color: rgb(171,201,54);
+height:4px;
+width:55px;
+transition:0.4s ease-in-out;
+
+}
+.topnav {
+    height: 80px;
+  overflow: hidden;
+  background-color: black;
+  margin-bottom: 10px;
+}
+.topnav input[type=search] {
+    width: 65%;
+  padding: 6px;
+  margin-top: 30px;
+  font-size: 17px;
+  border: none;
+}
+.topnav .search-container button {
+  padding: 6px 10px;
+  margin-left: -3px !important;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.main-box {
+    box-shadow: 0px 0px 15px #0c0c0cf7;
+    margin: 10px;
+    border-radius: 5px;
+    background:black;
+}
+#myImage
+{
+    border-radius: 50%;
+    width: 70%;
+    height: 200px;
+    margin: 10px;
+}
+.profile
+{
+    font-family: monospace;
+    color:white;
+}
+.data
+{
+    color:white;
+    font-family:Calibri;
+    font-size: 20px;
+}
+.modal-open .modal {
+    background: black;
+}
+.modal-title
+{
+    color:rgb(56,125,66) !important;
+    font-family:'Mali',cursive;
+    font-size:30px;
+    font-weight:bold;
+}
+th
+{
+    text-align: center;
+    font-size: 25px;
+}
+td
+{
+    font-size: 20px;
+}
+.follow
+{
+  height:400px;
+  overflow: scroll;
+}
+.follow1
+{
+  height:400px;
+  overflow: scroll;
+}
+.col-md-3.but {
+    margin-left: 40px;
+}
+#follower_images
+{
+    width:70px;
+    height:70px;
+}
+#following_images
+{
+      width:70px;
+    height:70px;  
+}
+#myrepos a
+{
+  text-decoration: none;
+}
+
+#myrepos td
+{
+    font-size:20px;
+}
+#myrepos th
+{
+    font-size: 25px;
+}
+.btn-success
+{
+    margin: 22px !important;
+}
+#repo
+{
+      height:500px;
+      overflow: scroll;
+      margin: 10px;
+}
+.btn-lg
+{
+  margin-left: -10px !important;
+}
