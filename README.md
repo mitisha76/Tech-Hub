@@ -15,7 +15,7 @@
 - Media-Query
 
 ### Website-Url
-[Click ME!...](https://mitisha76.github.io/Assessment-Project/)
+[Click ME!...](https://mitisha76.github.io/Tech-Hub/)
 
 ### Apis-Used
 - Github
